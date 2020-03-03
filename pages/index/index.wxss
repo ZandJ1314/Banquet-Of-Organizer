@@ -1,0 +1,53 @@
+.upPage{
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.downPage{
+  width: 100%;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.explain_info {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.explain-avatar {
+  width: 88rpx;
+  height: 88rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-avatar {
+  width: 88rpx;
+  height: 88rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.scroll-box{
+  white-space: nowrap;
+  height: 105vh;
+}
+.card-box{
+  display: inline-block;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80vh;
+  width: 80vw;
+  margin: 5vh 10vw;
+  font-size: 40px;
+  background: #00FFFF;
+  border-radius: 20px;
+}

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/circle/circle",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FFFF",
+    "navigationBarTitleText": "约友记",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor":"#00CED1",
+    "backgroundColor":"#F5F5F5",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/tarbar/index.png",
+      "selectedIconPath":"images/tarbar/index_selected.png"
+    },{
+      "pagePath": "pages/circle/circle",
+      "text": "圈子",
+      "iconPath": "images/tarbar/circle.png",
+      "selectedIconPath": "images/tarbar/circle_selected.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/tarbar/mine.png",
+      "selectedIconPath": "images/tarbar/mine_selected.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
